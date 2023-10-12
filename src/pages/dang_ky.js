@@ -1,6 +1,9 @@
 import Header from "../components/header"
 
 function Dang_ky() {
+
+    
+
     return (
         <>
             
@@ -27,11 +30,11 @@ function Dang_ky() {
                                             <input type="password" id="pass" class="form-control form-control-lg" />
                                         </div>
 
-                                        <div class="form-outline mb-4">
+                                        {/* <div class="form-outline mb-4">
 
                                             <label class="form-label" for="email">Email</label>
                                             <input type="email" id="email" class="form-control form-control-lg" />
-                                        </div>
+                                        </div> */}
 
                                         <div class="pt-1 mb-4">
                                             <button class="btn btn-info btn-lg btn-block" type="submit">Đăng ký</button>

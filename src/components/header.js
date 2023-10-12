@@ -53,12 +53,12 @@ function Header() {
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-3">
+                        <div class="col-lg-2">
                             <div class="header__logo">
                                 <a href="/"><img src="img/logo.png" alt="LOGO" /></a>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-8">
                             <nav class="header__menu">
                                 <ul>
                                     <li className="active"><NavLink to="/">Trang chủ</NavLink></li>
@@ -71,10 +71,13 @@ function Header() {
                                             <li><a href="#">Loại sản phẩm 4</a></li>
                                         </ul>
                                     </li> */}
+                                    <li><a href="#">Về chúng tôi</a></li>
+                                    <li><a href="#">Tin tức</a></li>
+                                    <li><a href="#">Liên hệ</a></li>
                                 </ul>
                             </nav>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-2">
                             <div class="header__cart">
                                 <ul>
                                     {/* <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li> */}
