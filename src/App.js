@@ -19,10 +19,13 @@ import Gio_hang from './pages/gio_hang';
 import Thanh_toan from './pages/thanh_toan';
 import Dang_nhap from './pages/dang_nhap';
 import Dang_ky from './pages/dang_ky';
+import Header from './components/header';
+import Footer from './components/footer';
 
 function App() {
   return (
     <>
+    <Header/>
       <Routes>
         <Route path='/' element={<Index />} />
         <Route path='/detail' element={<Detail />} />
@@ -34,6 +37,7 @@ function App() {
         {/* <Route path='/xl_dang_nhap' element={<Index/>}/> */}
         <Route path='/dang_ky' element={<Dang_ky/>}/>
       </Routes>
+      <Footer/>
     </>
   );
 }

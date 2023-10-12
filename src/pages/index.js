@@ -5,7 +5,7 @@ import FeaturedProduct from "../components/featured_product";
 function Index() {
     return (
         <>
-            <Header />
+            
             {/* <Banner /> */}
             <FeaturedProduct />
         </>
