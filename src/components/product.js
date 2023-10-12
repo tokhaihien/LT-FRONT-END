@@ -14,7 +14,7 @@ function Product_cpn(props) {
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="section-title">
-                                <h2>{props.data.product_type}</h2>
+                                <h2>{props.data.name}</h2>
                             </div>
 
                         </div>
