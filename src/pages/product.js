@@ -22,7 +22,6 @@ function Product(props) {
     })
     return (
         <>
-            <Header />
             {/* <Banner /> */}
             {lst_product_type}
         </>
