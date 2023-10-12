@@ -9,7 +9,7 @@ function OneProduct(props) {
                 <a href="/detail">
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg">
-                            <Img data={props.data.url} />
+                            <Img data={props.data.images[0]} />
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
                             </ul>

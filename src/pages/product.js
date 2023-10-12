@@ -31,7 +31,7 @@ function Product(props) {
         async function getDataFromApi(){
             var res = await fetch('http://127.0.0.1:8000/api/listboth');
             var json = await res.json();
-            console.log(json.data);
+            // console.log(json.data);
             setProduct_type(json.data);
         }
 

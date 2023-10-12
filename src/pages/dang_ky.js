@@ -3,7 +3,7 @@ import Header from "../components/header"
 function Dang_ky() {
     return (
         <>
-            <Header />
+            
             <div className="m-5 space">
                 <section class="vh-80">
                     <div class="container-fluid">

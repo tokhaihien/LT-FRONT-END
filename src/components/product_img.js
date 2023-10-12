@@ -1,7 +1,7 @@
 function Img(props) {
     return (
         <>
-            <img src={props.data} />
+            <img src={props.data.url} />
         </>
     )
 }

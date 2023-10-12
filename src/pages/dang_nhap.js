@@ -3,7 +3,7 @@ import Header from "../components/header"
 function Dang_nhap() {
     return (
         <>
-            <Header />
+  
             <div className="m-5">
                 <section class="vh-80">
                     <div class="container-fluid">
