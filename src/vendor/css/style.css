@@ -367,7 +367,7 @@ ol {
 
 .header__top__right__language ul {
 	background: #222222;
-	width: 100px;
+	width: 135px;
 	text-align: left;
 	padding: 5px 0;
 	position: absolute;
@@ -609,7 +609,7 @@ ol {
 	position: absolute;
 	right: 18px;
 	top: 9px;
-	content: "3";
+	content: "";
 	font-family: "ElegantIcons";
 	font-size: 18px;
 	color: #ffffff;
