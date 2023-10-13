@@ -6,7 +6,6 @@ import ProductDetail from "../components/product_detail";
 function Detail() {
     return (
         <>
-            <Header />
             {/* <Banner /> */}
             <ProductDetail />
         </>
